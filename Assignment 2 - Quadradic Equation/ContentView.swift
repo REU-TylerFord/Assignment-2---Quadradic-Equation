@@ -8,14 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var a: Double = (0.0)
+    @State private var b: Double = (0.0)
+    @State private var c: Double = (0.0)
+    
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            TextField("Enter value for a", value: $a, format: .number)
+            TextField("Enter value for b", value: $b, format: .number)
+            TextField("Enter value for c", value: $c, format: .number)
+          
+            Button(action: calculateRoots) {
+                            Text("Calculate")
+                        }
         }
-        .padding()
+        Text("Chosen value for a is: \(a)")
+        Text("Chosen value for b is: \(b)")
+        Text("Chosen value for c is: \(c)")
+        
+        
+      
+            
+            
+        }
+    
+    func calculateRoots() {
+        let quadraticEquation = quadraticEquation()
+        var roots: (Double, Double)
+        roots = quadraticEquation.calculateRealRootsForX12(a: a,b: b,c: c)
+        
+        
     }
 }
 

@@ -14,6 +14,9 @@
 		ABBA0573297B430700A38980 /* Assignment_2___Quadradic_EquationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA0572297B430700A38980 /* Assignment_2___Quadradic_EquationTests.swift */; };
 		ABBA057D297B430700A38980 /* Assignment_2___Quadradic_EquationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA057C297B430700A38980 /* Assignment_2___Quadradic_EquationUITests.swift */; };
 		ABBA057F297B430700A38980 /* Assignment_2___Quadradic_EquationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA057E297B430700A38980 /* Assignment_2___Quadradic_EquationUITestsLaunchTests.swift */; };
+		ABBA058C297B43E900A38980 /* QuadraticEquationVariables .swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA058B297B43E900A38980 /* QuadraticEquationVariables .swift */; };
+		ABBA058D297B43E900A38980 /* QuadraticEquationVariables .swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA058B297B43E900A38980 /* QuadraticEquationVariables .swift */; };
+		ABBA058E297B43E900A38980 /* QuadraticEquationVariables .swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBA058B297B43E900A38980 /* QuadraticEquationVariables .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		ABBA0578297B430700A38980 /* Assignment 2 - Quadradic EquationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 2 - Quadradic EquationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBA057C297B430700A38980 /* Assignment_2___Quadradic_EquationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assignment_2___Quadradic_EquationUITests.swift"; sourceTree = "<group>"; };
 		ABBA057E297B430700A38980 /* Assignment_2___Quadradic_EquationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assignment_2___Quadradic_EquationUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		ABBA058B297B43E900A38980 /* QuadraticEquationVariables .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuadraticEquationVariables .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				ABBA0560297B430600A38980 /* Assignment_2___Quadradic_EquationApp.swift */,
 				ABBA0562297B430600A38980 /* ContentView.swift */,
+				ABBA058B297B43E900A38980 /* QuadraticEquationVariables .swift */,
 				ABBA0564297B430700A38980 /* Assets.xcassets */,
 				ABBA0566297B430700A38980 /* Assignment_2___Quadradic_Equation.entitlements */,
 				ABBA0567297B430700A38980 /* Preview Content */,
@@ -259,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBA058C297B43E900A38980 /* QuadraticEquationVariables .swift in Sources */,
 				ABBA0563297B430600A38980 /* ContentView.swift in Sources */,
 				ABBA0561297B430600A38980 /* Assignment_2___Quadradic_EquationApp.swift in Sources */,
 			);
@@ -269,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABBA0573297B430700A38980 /* Assignment_2___Quadradic_EquationTests.swift in Sources */,
+				ABBA058D297B43E900A38980 /* QuadraticEquationVariables .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBA058E297B43E900A38980 /* QuadraticEquationVariables .swift in Sources */,
 				ABBA057D297B430700A38980 /* Assignment_2___Quadradic_EquationUITests.swift in Sources */,
 				ABBA057F297B430700A38980 /* Assignment_2___Quadradic_EquationUITestsLaunchTests.swift in Sources */,
 			);

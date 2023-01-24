@@ -3,7 +3,7 @@
 import SwiftUI
 
 @main
-struct ___PACKAGENAME:identifier___App: App {
+struct Assignment_2___Quadradic_EquationApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
