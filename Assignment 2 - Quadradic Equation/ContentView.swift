@@ -36,7 +36,7 @@ struct ContentView: View {
     
     func calculateRoots() {
         let quadraticEquation = quadraticEquation()
-        var roots: (Double, Double)
+        var roots: (Double, Double, Double, Double)
         roots = quadraticEquation.calculateRealRootsForX12(a: a,b: b,c: c)
         
         
